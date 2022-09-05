@@ -14,7 +14,7 @@ git clone https://github.com/bala1182002/demo-python.git
 Create a docker image
 
 ```bash
-cd ~/environment/bala-workshop/
+cd ~/environment/demo-python/
 docker build -t app .
 docker images
 ```
@@ -34,8 +34,3 @@ docker tag app:latest <ecr endpoint>/<repo Name>:latest
 
 docker push <ecr endpoint>/<repo Name>:latest
 ```
-
-Test the application with the Network Load Balancer.
-
-
-Remove Cloud9 environment.
